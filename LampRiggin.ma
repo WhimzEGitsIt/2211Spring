@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: LampRiggin.ma
-//Last modified: Thu, Jan 31, 2019 03:46:01 PM
+//Last modified: Thu, Jan 31, 2019 03:49:36 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -14,13 +14,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "E1FD7D2B-4B97-9F71-2702-CC9CC9C5C236";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 2.4937802429447231 4.2327298549454344 17.185726163154499 ;
-	setAttr ".r" -type "double3" -356.73835272959866 -713.79999999991833 -4.9988551737962259e-17 ;
+	setAttr ".t" -type "double3" 18.260200154034067 1.9966208402443613 19.979341737406717 ;
+	setAttr ".r" -type "double3" -353.13835272957249 -1038.9999999999604 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "0C717825-4440-25D8-F734-B8A86F8C0CE3";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 17.666697605962312;
+	setAttr ".coi" 27.129882611050483;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
